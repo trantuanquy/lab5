@@ -1,0 +1,104 @@
+@media all and (max-width : 800px){
+    .menu-top-header {
+        margin-left: 900px;
+        align-items: center;
+        display: none;
+    }
+    .top-header {
+        background-color: red;
+        height: auto;
+        display: block;
+        align-items: center;
+    }
+    .logo-header {
+        text-align: center;
+    }
+    .bottom-header {
+        display: none;
+        background-color: black;
+        height: 40px;
+        padding: 0 250px;
+    }
+    label #btn, label #cancel{
+        position: absolute;
+        cursor: pointer;
+        background-color: #042331;
+        border-radius: 3px;
+        display: block;
+    }
+    .box-top {
+        display: flex;
+        flex-wrap: wrap;    
+    }
+    .box-top-left {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .box-top-left img {
+        height: 100%;
+        width: 100%;
+    }
+    .box-top-right {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .box-top-right nav {
+        display: none;
+    }
+    .wrap-prod {
+        width: 90%;
+        margin: 146px auto;
+        background-color: white;
+    }
+    .warp-content>p {
+        font-size: 30px;
+        color: red;
+        padding: 10px;
+        text-align: center;
+    }
+    .warp-content ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+        padding: 0%;
+    }
+    .warp-content nav ul li {
+        width: 32.8%;
+        text-align: center;
+    }
+    .warp-content-laptop li {
+        width: 32.8%;
+        border: 1px solid lightgray;
+        text-align: center;
+    }
+    .footer-1,.footer-2,.footer-3,.footer-4,.footer-1 {
+        display: none;
+    }
+    label #btn, label #cancel {
+        position: absolute;
+        cursor: pointer;
+        background-color: #042331;
+        border-radius: 3px;
+        display: block;
+        top: 15px;
+    }
+    .body-1 {
+        width: 100%;
+        margin: auto;
+    }
+    .content-body-left-1 {
+        font-size: 20px;
+        color: black;
+        width: 239px;
+        border: 1px solid black;
+    }
+    .content-body-right-2 li {
+        margin: 20px 20px;
+        border: 1px solid black;
+        width: 80%;
+    }
+    
+}
